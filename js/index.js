@@ -40,3 +40,44 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Nav setup
+
+const navA = document.querySelectorAll('nav a');
+navA.forEach(el => {
+      el.classList.add(`nav-item-1`);
+}
+);
+
+const n1 = document.querySelector('.nav-item-1');
+n1.textContent = 'Services';
+const n2 = n1.nextElementSibling;
+n2.className = 'nav-item-2';
+n2.textContent = 'Product';
+const n3 = n2.nextElementSibling;
+n3.className = 'nav-item-3';
+n3.textContent = 'Vision';
+const n4 = n3.nextElementSibling;
+n4.className = 'nav-item-4';
+n4.textContent = 'Features';
+const n5 = n4.nextElementSibling;
+n5.className = 'nav-item-5';
+n5.textContent = 'About';
+const n6 = n5.nextElementSibling;
+n6.className = 'nav-item-6';
+n6.textContent = 'Contact';
+
+
+// const firA = document.querySelector(".nav-item-1");
+// firA.textContent = "Services";
+// document.querySelector("nav").appendChild(firstNav);
+
+// const firstNav = document.querySelector('nav a');
+// firstNav.textContent = "Services";
+// document.querySelector("nav").appendChild(firstNav);
+
+// const sndNav = firstNav.nextElementSibling;
+// sndNav.textContent = "Product";
+// console.log(sndNav);
+// document.querySelector("nav").appendChild(sndNav);
+
