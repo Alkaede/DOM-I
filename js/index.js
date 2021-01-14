@@ -149,11 +149,11 @@ newDiv.appendChild(newP2);
 const newP3 = document.createElement('p');
 newDiv.appendChild(newP3);
 
-//use this after setting up the new div and appending cause this doesnt work until 
-//i find out a way to get the elements into the new appended div
+
 const divH = newDiv.querySelector('h4');
 divH.textContent = 'Contact';
 divH.className = 'contact-h4';
+
 const p = newDiv.querySelectorAll('p');
 p[0].textContent = '123 Way 456 Street Somewhere, USA';
 p[0].className = 'address';
