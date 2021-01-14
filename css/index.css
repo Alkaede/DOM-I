@@ -89,7 +89,9 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
-    color: black;
+    color: green;
+    text-transform: capitalize;
+    font-size: x-large;
 }
 
 header .logo {
